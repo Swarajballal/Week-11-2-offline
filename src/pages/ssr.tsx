@@ -1,5 +1,5 @@
 
-import { Inter } from 'next/font/google'
+
 import { Button, Typography } from "@mui/material";
 import {signIn, useSession, signOut} from "next-auth/react"
 import {getServerSession} from "next-auth";
